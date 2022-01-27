@@ -1,0 +1,31 @@
+main {
+    position: relative;
+    height: 100vh;
+  }
+  
+  main .helper {
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    padding: 0.5em 0.7em;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  main .helper h2{
+    font-size: 40px;
+    color: #ff7725;
+    text-shadow: 2px 2px black;
+    font-family: Baskerville;
+  }
+  
+  main .helper div img{
+    width: 900px;
+    height: 500px;
+    filter: brightness(80%);
+    border-radius: 10px;
+  }
